@@ -1,9 +1,9 @@
 version: 1
 
-dn: ${USER_BASE_DN}
-objectClass: organization
+dn: dc=example,dc=com
 objectClass: top
-o: ${USER_BASE_DN}
+objectClass: domain
+dc: example
 
 dn: ou=Consents,${USER_BASE_DN}
 objectClass: organizationalUnit
